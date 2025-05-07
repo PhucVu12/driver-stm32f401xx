@@ -1,0 +1,42 @@
+/*
+ * stm32f401xx_usart_driver.c
+ *
+ *  Created on: May 5, 2025
+ *      Author: phucv
+ */
+
+#include "stm32f401xx_usart_driver.h"
+
+
+/*
+ * Peripheral clock setup
+ */
+void USART_PeriClockControl(USART_RegDef_t *pUSARTx, uint8_t EnorDi)
+{
+	if (EnorDi == ENABLE)
+	{
+		if(pUSARTx == USART1)
+		{
+			USART1_PCLK
+		}else if(pI2Cx == I2C2)
+		{
+			I2C2_PCLK_EN();
+		}else if(pI2Cx == I2C3)
+		{
+			I2C3_PCLK_EN();
+		}
+	}else{
+		if(pI2Cx == I2C1)
+		{
+			I2C1_PCLK_DI();
+		}else if(pI2Cx == I2C2)
+		{
+			I2C2_PCLK_DI();
+		}else if(pI2Cx == I2C3)
+		{
+			I2C3_PCLK_DI();
+		}
+	}
+}
+
+

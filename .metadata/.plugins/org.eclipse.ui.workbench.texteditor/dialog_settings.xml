@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<item key="replaceBarOpen" value="true"/>
+	<list key="searchhistory">
+		<item value="temp3"/>
+		<item value="temp2"/>
+		<item value="RCC_GetPCLK1Value"/>
+		<item value="IRQ"/>
+		<item value="IRQHandling"/>
+		<item value="APB2RSTR"/>
+		<item value="I2C_SlaveEn"/>
+		<item value="I2C_GenerateStopCondition"/>
+		<item value="I2C_CloseSendData"/>
+		<item value="I2C_MasterHandleTXEInterrupt"/>
+		<item value="I2C_ExecuteAddressPhaseRead"/>
+		<item value="I2C_ClearADDRFlag"/>
+		<item value="SPI"/>
+		<item value="SSM"/>
+	</list>
+	<list key="replacehistory">
+		<item value="I2C"/>
+	</list>
+</section>
